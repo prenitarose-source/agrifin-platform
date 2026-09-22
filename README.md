@@ -1,15 +1,15 @@
 # AgriFin: Intelligent Credit Underwriting & Agronomic Harvest Engine
 
-[![Live Deployment](https://img.shields.io/badge/Vercel-Live%20Demo-10b981?style=for-the-badge&logo=vercel)](https://agrifinn-platform-ne1o8sf8n-prenita.vercel.app)
+[![Live Deployment](https://img.shields.io/badge/Vercel-Live%20Demo-10b981?style=for-the-badge&logo=vercel)](https://agrifinn-platform.vercel.app)
 [![React](https://img.shields.io/badge/React-18.x-61dafb?style=for-the-badge&logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-646cff?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**Live Application:** [https://agrifinn-platform-ne1o8sf8n-prenita.vercel.app](https://agrifinn-platform-ne1o8sf8n-prenita.vercel.app)
+**Live Application:** [https://agrifinn-platform.vercel.app](https://agrifinn-platform.vercel.app)
 
 ---
 
-## Executive Summary
+## 📌 Executive Summary
 
 Smallholder farmers frequently face credit exclusion due to lack of formalized collateral, unrecorded cash flows, or thin bureau files. **AgriFin** bridges this gap by deploying an agronomic-first underwriting framework.
 
@@ -17,7 +17,7 @@ By modeling soil quality, seed genetics, seasonal precipitation, and insolation,
 
 ---
 
-## Key Features
+## 🚀 Key Features
 
 * **Dual-Portal Architecture:**
   * **Farmer Self-Service Application:** Designed for first-time borrowers without credit history. Integrates land registry (Patta/Survey) and PM-KISAN subsidy matching.
@@ -34,7 +34,7 @@ By modeling soil quality, seed genetics, seasonal precipitation, and insolation,
 
 ---
 
-## Underwriting Framework
+## 🔬 Underwriting Framework
 
 ### 1. Yield Estimation Formula (Empirical RF Proxy)
 The agronomic harvest engine calculates yield ($Y$ in kg/ha) via:
@@ -55,17 +55,17 @@ $$\text{Yield} = 420 + 1.45(\text{SQI}) + 195(\text{Seed}) + 0.92(\text{Fert}) +
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 * **Frontend Framework:** React 18, Vite
-* **Styling:** Custom CSS Glassmorphism & Responsive Dark Palette
+* **Styling:** Custom CSS Glassmorphism & Cyber-Agronomic Dark Palette
 * **Data Visualization:** Native Vector SVGs (Real-time Area Response Curves, Dynamic Gauges, Cohort Bar Graphs)
 * **Document Engine:** `jsPDF`
 * **Hosting & CI/CD:** Vercel Continuous Deployment
 
 ---
 
-## Local Setup & Development
+## 💻 Local Setup & Development
 
 1. **Clone the repository:**
    ```bash
